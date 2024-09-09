@@ -1,13 +1,13 @@
 public class Vilao {
-    String nome;
+    private String nome;
 
-    int vida;
+    private int vida;
 
-    int energia;
+    private int energia;
 
     public Vilao()
     {
-        Personagem.nViloes += 1;
+        Personagem.setnViloes(Personagem.getnViloes() + 1);
     }
 
     public String getNome() {

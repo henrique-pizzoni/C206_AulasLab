@@ -1,12 +1,19 @@
 public class Personagem {
-    String nome;
+    private String nome;
 
-    int vida;
+    private int vida;
 
-    int energia;
+    private int energia;
 
-    public static int nViloes = 0;
+    private static int nViloes = 0;
 
+    public static void setnViloes(int nViloes) {
+        Personagem.nViloes = nViloes;
+    }
+
+    public static int getnViloes() {
+        return nViloes;
+    }
 
     public void setNome(String nome) {
         this.nome = nome;
