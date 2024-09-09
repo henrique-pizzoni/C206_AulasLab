@@ -24,7 +24,7 @@ public class Main {
 
 
 
-        System.out.println("TOTAL DE ALUNOS: " + a1.getnAlunos());
+        System.out.println("TOTAL DE ALUNOS: " + Aluno.getnAlunos());
 
 
     }

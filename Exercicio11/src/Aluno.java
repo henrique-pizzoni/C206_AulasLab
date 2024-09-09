@@ -9,7 +9,7 @@ public class Aluno {
         nAlunos += 1;
     }
 
-    public int getnAlunos()
+    public static int getnAlunos()
     {
         return nAlunos;
     }
