@@ -1,0 +1,3 @@
+Aluno = Jonas
+Idade = 23
+Matrícula = 399
