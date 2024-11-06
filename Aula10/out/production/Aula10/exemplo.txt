@@ -1,0 +1,3 @@
+Nome: João
+Idade: 23
+Mat: 500
